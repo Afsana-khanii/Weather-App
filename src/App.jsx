@@ -1,9 +1,8 @@
-import MyApp from './Components/MyApp'
+import Form from './Components/Form'
 
 function App() {
   return (
-    <>  <MyApp/> </>
- 
+    <>  <Form/> </>
   );
 }
 export default App;
