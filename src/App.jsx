@@ -1,8 +1,7 @@
-import Form from './Components/Form'
-
+import Todos from './Components/Todos'
 function App() {
   return (
-    <>  <Form/> </>
+    <>  <Todos/> </>
   );
 }
 export default App;

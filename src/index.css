@@ -5,67 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(0, 99, 99);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-form{
-  flex-direction: column;
-  justify-content: center;
-  width: 350px;
+.container{
+  width: 380px;
   margin: auto;
-  background-color: white;
-  margin-top: 33px;
   padding: 11px;
+  background-color: rgb(1, 112, 112);
+  color: white;
   text-align: center;
-}
-.heading{
-  text-align: center;
-  font-weight: 600;
-  font-size: 33px;
-  margin-top: 0px;
-}
-form input{
-  width: 90%;
-  border: 1px solid black;
-  padding: 6px;
-  font-size: 18px;
-  position: relative;
-  top: -13px;
+  margin-top: 44px;
   
 }
-.fieldName{
-  text-align: left;
-  margin-left: 11px;
-  font-weight: 500;
+.taskInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-form .data{
-  margin-top: -13px;
-  font-size: 16px;
-  text-align: left;
-  margin-left: 12px;
-}
-form .noData{
-  margin-top: -13px;
-  font-size: 16px;
-  text-align: left;
-  margin-left: 12px;
-  color: red;
-}
-form button{
-  width: 140px;
-  height: 40px;
-  background-color: rgb(0, 112, 112);
-  color: white;
-  font-size: 18px;
+.container input{
+  width: 70%;
+  padding: 9px;
   border: none;
+  font-size: 22px;
+  border-radius: 2px;
+}
+.container button{
+  width: 70px;
+  height: 44px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-left: 6px;
+  border-radius: 3px;
   cursor: pointer;
 }
+.taskData{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+   
+   
 
-
-.toastBody{
-  font-size: 22px;
+}
+.taskData p{
+  font-size: 23px;
+  margin-left: 8px;
+  
+   
+}
+.taskData #deleteIcon{
+  position:relative;
+  left: -9%;
+  top: 28px;
+  cursor: pointer;
+  font-size: 21px;
+  color: black;
+  color: white;
 }
