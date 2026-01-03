@@ -1,7 +1,9 @@
-import Todos from './Components/Todos'
+import Slider from './Components/Slider';
 function App() {
   return (
-    <>  <Todos/> </>
+    <>
+      <Slider/>
+       </>
   );
 }
 export default App;
