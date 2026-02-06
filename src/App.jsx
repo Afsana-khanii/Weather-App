@@ -1,8 +1,8 @@
-import Slider from './Components/Slider';
+import Rating from './Components/Rating';
 function App() {
   return (
     <>
-      <Slider/>
+      <Rating/>
        </>
   );
 }
