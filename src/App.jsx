@@ -1,8 +1,8 @@
-import Rating from './Components/Rating';
+import Otp from './components/Otp';
 function App() {
   return (
     <>
-      <Rating/>
+      <Otp/>
        </>
   );
 }
