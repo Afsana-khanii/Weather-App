@@ -1,8 +1,8 @@
-import Otp from './components/Otp';
+import KidsApp from './components/KidsApp';
 function App() {
   return (
     <>
-      <Otp/>
+      <KidsApp/>
        </>
   );
 }
